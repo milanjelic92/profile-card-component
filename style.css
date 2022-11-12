@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+  
+  
+}
+
+body {
+    background-color:  hsl(185, 75%, 39%);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./images/bg-pattern-top.svg) top left no-repeat;
+     
+    
+  
+    
+    
+}
+.card {
+    width: 380px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+  }
+.pattern-image {
+    width: 100%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+.profile-image {
+  position: absolute;
+  background-color: white;
+  top: 100px;
+  right: 150px;
+  border: 5px solid white;
+  border-radius: 50%;
+ 
+}
+.profile-info {
+  position: absolute;
+  bottom: 125px;
+  right: 135px;
+}
+.profile-name {
+  color: hsl(229, 23%, 23%);
+  text-align: center;
+  font-family: Kumbh Sans, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.profile-city {
+  color: 
+  font-familhsl(0, 0%, 59%);y: Kumbh Sans, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  margin-left: 5px;
+}
+.horizontal-line {
+  position: relative;
+  bottom: -35px;
+  background-color:hsl(0, 0%, 59%);
+  height: 1px;
+  border: none;
+}
